@@ -157,5 +157,18 @@ This project uses **snake_case** naming conventions across all layers.
 
 ---
 
+## 🔒 Cybersecurity & Data Privacy (Planned Enhancements)
+This project is designed with potential **cybersecurity and data privacy improvements** in mind. These enhancements will be added in future iterations and may include:
+
+- Masking or hashing sensitive data (PII) in staging and warehouse layers  
+- Implementing role-based access control (RBAC) for Bronze, Silver, and Gold schemas  
+- Maintaining logging and audit trails for ETL operations  
+- Validating data integrity and quality before analytics  
+- Securing storage for sensitive datasets
+
+> Note: These features are planned for future updates and are not part of the current implementation.
+
+---
+
 ## 📌 Notes
-This project was created as part of a **self-learning journey in data engineering**, inspired by real-world practices and educational content (Data with Baraa).
+This project was created as part of a **self-learning journey in data engineering**, inspired by real-world practices and educational content by Data with Baraa.
