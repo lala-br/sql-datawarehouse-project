@@ -14,6 +14,7 @@ The goal is to simulate an **end-to-end data warehouse workflow**, including:
 The project follows **industry best practices** commonly used by data engineers and analytics teams.
 
 ---
+
 ## 🎯 Project Objectives
 - Understand **data warehouse architecture** and design principles  
 - Practice **ETL development** using SQL Server  
@@ -24,6 +25,7 @@ The project follows **industry best practices** commonly used by data engineers 
 > This project is intended for **learning and portfolio purposes**, not production use.
 
 ---
+
 ## 🏗️ Architecture Overview (Medallion Architecture)
 The project follows the **Medallion Archiecture**:
 CSV Files
@@ -35,6 +37,7 @@ Silver Layer (Cleaned Tables)
 Gold Layer (Analytics Views)
 
 ---
+
 ### Architecture Principles
 - **Bronze**: Raw ingestion, minimal transformation  
 - **Silver**: Cleaned and standardized data  
@@ -88,6 +91,7 @@ Gold Layer (Analytics Views)
 - **Aggregated Tables:** Pre-calculated metrics for performance optimization  
 
 ---
+
 ## 🔄 ETL Process
 The ETL process is implemented using **SQL Server** and follows a layered transformation approach:
 
@@ -101,6 +105,7 @@ The ETL process is implemented using **SQL Server** and follows a layered transf
 All transformations are written in **SQL** and follow a clear separation of concerns across layers.
 
 ---
+
 ## 📈 Analytics & Reporting
 The **Gold layer** serves as the primary source for analytics and reporting.
 
@@ -111,6 +116,7 @@ Example use cases:
 - Dashboard-ready datasets
 
 ---
+
 ## 🛠️ Tech Stack
 - **Database:** SQL Server  
 - **Data Source:** CSV files  
@@ -120,14 +126,24 @@ Example use cases:
 - **Version Control:** Git & GitHub  
 
 ---
+
 ## 📁 Repository Structure
 
 ---
+
 ## 🧠 Key Learnings
+- Implementing **Medallion Architecture** in a data warehouse
+- Separating raw, refined, and analytical data layers
+- Designing **analytics-focused models** in the Gold layer
+- Understanding trade-offs between star, flat, and aggregated models
+- Writing maintainable SQL for layered transformations
+- Learning how to design and structure an **end-to-end data engineering project**, from data ingestion to analytics-ready outputs
 
 ---
+
 ## 🚀 Future Improvements
 
 ---
+
 ## 📌 Notes
 This project was created as part of a **self-learning journey in data engineering**, inspired by real-world practices and educational content (Data with Baraa).
