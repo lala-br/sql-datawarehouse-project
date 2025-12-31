@@ -1,4 +1,4 @@
-#Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project
 
 ## Overview
 This project is a **learning-focused data engineering project** designed to understand how data engineers design and build **modern data warehouses** for analytics and reporting.
@@ -124,6 +124,18 @@ Example use cases:
 - **Modeling:** Star Schema, Flat Tables, Aggregated Tables  
 - **ETL:** SQL-based transformations  
 - **Version Control:** Git & GitHub  
+
+---
+
+## 🔤 Naming Conventions
+This project uses **snake_case** naming conventions across all layers.
+
+- Applied to tables, views, columns, schemas, and SQL scripts  
+- All names are lowercase and use underscores (`_`)  
+- Names are descriptive and business-oriented  
+
+**Examples:**  
+`customer_id`, `order_date`, `fact_sales`, `dim_customer`
 
 ---
 
